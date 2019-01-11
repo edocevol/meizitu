@@ -330,4 +330,4 @@ function loadData() {
   [9]: http://cdnfrank.wanqing520.cn/1494146076476.jpg
   [10]: http://cdnfrank.wanqing520.cn/1494146104647.jpg
   [11]: http://cdnfrank.wanqing520.cn/1494146154791.jpg
-  [12]: https://github.com/sixtrees/meizitu
+  [12]: https://github.com/edocevol/meizitu
