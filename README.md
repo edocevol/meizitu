@@ -1,3 +1,4 @@
+
 # nodejs环境下html的解析
 nodejs环境下，对妹子图网站的数据进行获取/解析/并利用express对客户端进行json数据的返回。
 本文主要解决了：1.jquery解析请求过来的html如何实现的问题；2.nodejs环境下jquery重度使用者的替代函数库的问题；3.nodejs下，如何发送ajax请求的问题（ajax请求，本身就是一个request请求）；4. 本文用实际的案例来介绍了如何使用`cheerio`进行dom操作。
@@ -123,7 +124,7 @@ request(options, callback);
 ```
 
 ## cheerio模块简介
-cheerio为服务器特别定制的，快速、灵活、实施的jQuery核心实现.**npm官网下对cheerio模块的简介**：[`https://www.npmjs.com/package/cheerio`][7]	
+cheerio为服务器特别定制的，快速、灵活、实施的jQuery核心实现.**npm官网下对cheerio模块的简介**：[`https://www.npmjs.com/package/cheerio`][7]   
 
 如果阅读英文文献有问题的话，nodejs中文社区下的关于cheerio的api的中文介绍：[`http://cnodejs.org/topic/5203a71844e76d216a727d2e`][8]
 
@@ -315,18 +316,18 @@ function loadData() {
 
 代码已经上传到github了，小伙伴们，觉得有用的，`start`一下吧。
 
-地址：[https://github.com/sixtrees/meizitu][12]
+地址：[https://github.com/edocevol/meizitu][12]
 
 
-  [1]: http://ojcybdsyq.bkt.clouddn.com/1494141040442.jpg
-  [2]: http://ojcybdsyq.bkt.clouddn.com/1494141225376.jpg
-  [3]: http://ojcybdsyq.bkt.clouddn.com/1494141396059.jpg
-  [4]: http://ojcybdsyq.bkt.clouddn.com/1494141608877.jpg
-  [5]: http://ojcybdsyq.bkt.clouddn.com/1494141845583.jpg
-  [6]: http://ojcybdsyq.bkt.clouddn.com/1494142370329.jpg
+  [1]: http://cdnfrank.wanqing520.cn/1494141040442.jpg
+  [2]: http://cdnfrank.wanqing520.cn/1494141225376.jpg
+  [3]: http://cdnfrank.wanqing520.cn/1494141396059.jpg
+  [4]: http://cdnfrank.wanqing520.cn/1494141608877.jpg
+  [5]: http://cdnfrank.wanqing520.cn/1494141845583.jpg
+  [6]: http://cdnfrank.wanqing520.cn/1494142370329.jpg
   [7]: https://www.npmjs.com/package/cheerio
   [8]: http://cnodejs.org/topic/5203a71844e76d216a727d2e
-  [9]: http://ojcybdsyq.bkt.clouddn.com/1494146076476.jpg
-  [10]: http://ojcybdsyq.bkt.clouddn.com/1494146104647.jpg
-  [11]: http://ojcybdsyq.bkt.clouddn.com/1494146154791.jpg
+  [9]: http://cdnfrank.wanqing520.cn/1494146076476.jpg
+  [10]: http://cdnfrank.wanqing520.cn/1494146104647.jpg
+  [11]: http://cdnfrank.wanqing520.cn/1494146154791.jpg
   [12]: https://github.com/sixtrees/meizitu
